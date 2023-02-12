@@ -1,3 +1,15 @@
+# MCU name
+MCU = atmega32u4
+
+# Pro Micro build
+# BOOTLOADER = caterina
+
+# Teensy/Teensy LC
+BOOTLOADER = halfkay
+
+# TODO: C3 Mini+IO extender
+#BOOTLOADER = halfkay
+
 # Build Options
 #   change yes to no to disable
 #

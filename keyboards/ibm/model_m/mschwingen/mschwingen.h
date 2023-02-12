@@ -18,5 +18,15 @@
 #pragma once
 
 extern void update_layer_leds(void);
+#if defined(KEYBOARD_redox_rev1)
+#     include "rev1.h"
+#elif defined(KEYBOARD_redox_media)
+#    include "media.h"
+#elif defined(KEYBOARD_redox_teensylc)
+#    include "media.h"
+#elif defined(KEYBOARD_redox_teensy32)
+#    include "media.h"
+
+#endif
 
 #include "quantum.h"
