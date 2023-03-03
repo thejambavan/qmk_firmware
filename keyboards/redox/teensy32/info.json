@@ -1,5 +1,7 @@
 {
   "keyboard_name": "Redox",
+  "processor": "MK20DX256",
+  "bootloader": "halfkay",
   "manufacturer": "Jambo",
   "url": "https://github.com/thejambavan/qmk_firmware",
   "maintainer": "qmk",

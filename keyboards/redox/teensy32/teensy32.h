@@ -2,10 +2,6 @@
 
 #include "redox.h"
 
-#if defined(KEYBOARD_redox_teensy32_proton_c)
-#    include "proton_c.h"
-#endif
-
 #include "quantum.h"
 
 #ifdef USE_I2C

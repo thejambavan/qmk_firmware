@@ -1,11 +1,18 @@
 # MCU name
+
+# Pro Micro
 MCU = atmega32u4
 
+#	MCU = MKL26Z64
+#	MCU = MK20DX256
+# This MCU is not in the main CHIBIOS repo but in the CHIBIOS_CONTRIB repo.
+USE_CHIBIOS_CONTRIB = yes
+
 # Pro Micro build
-# BOOTLOADER = caterina
+ BOOTLOADER = caterina
 
 # Teensy/Teensy LC
-BOOTLOADER = halfkay
+#BOOTLOADER = halfkay
 
 # TODO: C3 Mini+IO extender
 #BOOTLOADER = halfkay
@@ -25,7 +32,9 @@ RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.
 
 SPLIT_KEYBOARD = yes
 
-DEFAULT_FOLDER = redox/rev1/base
+#DEFAULT_FOLDER = redox/rev1/base
+DEFAULT_FOLDER = redox/jambo3/base
+#DEFAULT_FOLDER = redox/teensy32/base
 
 # Disable unsupported hardware
 AUDIO_SUPPORTED = no

@@ -18,15 +18,20 @@
 #pragma once
 
 extern void update_layer_leds(void);
+/*
+>>>>>>> 913992b438 (redox handwire fork: jambodox):keyboards/redox/redox.h
 #if defined(KEYBOARD_redox_rev1)
 #     include "rev1.h"
 #elif defined(KEYBOARD_redox_media)
 #    include "media.h"
 #elif defined(KEYBOARD_redox_teensylc)
-#    include "media.h"
+#    include "teensylc.h"
 #elif defined(KEYBOARD_redox_teensy32)
-#    include "media.h"
-
-#endif
+*/
+//#    include "teensy32.h"
+#    include "jambo3.h"
+/*
+ * #endif
+*/
 
 #include "quantum.h"
